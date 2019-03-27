@@ -8,7 +8,7 @@ import HomePage from "../pages/HomePage";
 import PhotoPage from "../pages/PhotoPage";
 import ProjectPage from "../pages/ProjectPage";
 import SkillsPage from '../pages/SkillsPage';
-import NotFound from '../pages/NotFound';
+
 class NavBarComponent extends Component {
 
     render() {
@@ -29,7 +29,7 @@ class NavBarComponent extends Component {
             <Route exact path="/photos" component={PhotoPage}></Route>
             <Route exact path="/projects" component={ProjectPage}></Route>
             <Route exact path="/skills" component={SkillsPage}></Route>
-            <Route exact path="/"><Redirect to="/home"/></Route>
+            <Route path="*" component={HomePage}><Redirect to="/home"/></Route>
           </Switch>
         </BrowserRouter>
         </div>

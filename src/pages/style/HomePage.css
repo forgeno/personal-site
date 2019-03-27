@@ -12,7 +12,7 @@ body {
 
 #headshotDiv{
     display:inline-block;
-    max-width: 15%;
+    width: 15%;
     padding-left: 1%;
 }
 
