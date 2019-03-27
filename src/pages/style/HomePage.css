@@ -26,3 +26,19 @@ body {
     margin-left: 20%;
     height: 100%;
 }
+
+#contactButtons{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+.contactIcon{
+    max-width: 5%;
+    margin: 10px;
+    opacity: 0.6;
+}
+
+.iconLink :hover{
+    opacity: 1;
+}

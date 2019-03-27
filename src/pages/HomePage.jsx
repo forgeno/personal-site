@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import "./style/HomePage.css";
 import { Image, Button } from "react-bootstrap";
 import headShot from "../assets/images/Headshot1.jpg"
+import linkedinIcon from "../assets/images/linkedin-white.png"
+import emailIcon from "../assets/images/mail-white.png"
+import githubIcon from "../assets/images/github-white.png"
 import "mdbootstrap/css/mdb.min.css"
 
 class HomePage extends Component {
@@ -37,6 +40,11 @@ class HomePage extends Component {
       </div>
       <div id="headshotDiv" className="animated fadeIn slower">
         <Image id="headshotImage" src={headShot} rounded/>
+      </div>
+      <div id="contactButtons">
+        <a className="iconLink" target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/ivanma0"><Image className="contactIcon" src={linkedinIcon}/></a>
+        <a className="iconLink" target='_blank' rel="noopener noreferrer" href="https://github.com/forgeno/"><Image className="contactIcon" src={githubIcon}/></a>
+        <a className="iconLink" target='_blank' rel="noopener noreferrer" href="mailto:ima@ualberta.ca"><Image className="contactIcon" src={emailIcon}/></a>
       </div>
     </div>
     );
