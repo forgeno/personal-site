@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Slabo+27px');
+#root{
+    font-family: 'Quicksand', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -21,6 +26,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+h1{
+  color: whitesmoke;
+}
+
+p{
+  color: whitesmoke;
 }
 
 @keyframes App-logo-spin {

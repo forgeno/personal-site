@@ -1,0 +1,28 @@
+body {
+    min-height: 100vh;
+    background-image: url("../../assets/images/city-background-blur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+
+#headshotImage{
+    max-width: 100%;
+}
+
+#headshotDiv{
+    display:inline-block;
+    max-width: 15%;
+    padding-left: 1%;
+}
+
+#info{
+    display:inline-block;
+    max-width: 80%;
+}
+
+#mainDiv{
+    margin-top: 10%;
+    margin-left: 20%;
+    height: 100%;
+}
