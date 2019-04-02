@@ -1,3 +1,26 @@
 body{
     height: 100%;
 }
+
+.gridElement{
+    /* background-color: rgba(0, 0, 0, 0.308); */
+    padding: 1%;
+}
+
+.gridImage{
+    max-width: 100%; 
+}
+
+h1{
+    color: whitesmoke;
+}
+#gridHeader{
+    padding-top: 15%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: left;
+}
+
+h1{
+    color: cyan;
+}

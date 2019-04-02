@@ -4,21 +4,22 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    color: white;
    }
 
 #headshotImage{
-    max-width: 100%;
+    max-width: 20%;
 }
 
 #headshotDiv{
-    display:inline-block;
-    width: 15%;
-    padding-left: 1%;
+    padding-left: 50px;
+    max-width: 100%;
 }
 
 #info{
-    display:inline-block;
-    max-width: 80%;
+    float: left;
+    max-width: 50%;
+    padding-right:5%;
 }
 
 #mainDiv{
@@ -34,11 +35,17 @@ body {
 }
 
 .contactIcon{
-    max-width: 5%;
+    max-width: 10%;
     margin: 10px;
     opacity: 0.6;
 }
 
 .iconLink :hover{
     opacity: 1;
+}
+
+.iconLink{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
