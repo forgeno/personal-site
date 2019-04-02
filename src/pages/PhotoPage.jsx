@@ -53,9 +53,20 @@ class PhotoPage extends Component {
           <Col className="gridElement">
             <Image className="gridImage wow fadeInUp" src={MikeSquare}></Image>
           </Col>
-          <Col className="gridElement wow fadeInUp">
+          <Col className="gridElement">
             <Image className="gridImage" src={DeiveSquare}></Image>
           </Col>
+        </Row>
+        <Row>
+            <iframe className="videoPlayer" title="video1" width="1000" height="562.50" src="https://www.youtube.com/embed/RGWqHGyrC0o"></iframe>
+        </Row>
+        <br/>
+        <Row>
+            <iframe className="videoPlayer" title="video1" width="1000" height="562.50" src="https://www.youtube.com/embed/FHfi6wp7XrM"></iframe>
+        </Row>
+        <br/>
+        <Row>
+          <iframe className="videoPlayer" src="https://drive.google.com/file/d/1YCUPDfLzSUomPBK6RF6u8ZS4cq02VoPl/preview" width="1000" height="562.50"></iframe>
         </Row>
       </Container>
     )
