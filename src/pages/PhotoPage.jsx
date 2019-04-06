@@ -7,7 +7,7 @@ import Legislature from "../assets/images/portfolio/Legislature-edmonton-square.
 import CalvinHeadshot from "../assets/images/portfolio/calvin-headshot-square.png"
 import MikeSquare from "../assets/images/portfolio/Mike-square.png"
 import DeiveSquare from "../assets/images/portfolio/IMG_2442.jpg"
-import "mdbootstrap/css/mdb.min.css"
+// import "mdbootstrap/css/mdb.min.css"
 
 
 class PhotoPage extends Component {

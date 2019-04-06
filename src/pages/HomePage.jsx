@@ -6,7 +6,7 @@ import headShot from "../assets/images/Headshot1Zoom.jpg"
 import linkedinIcon from "../assets/images/linkedin-white.png"
 import emailIcon from "../assets/images/mail-white.png"
 import githubIcon from "../assets/images/github-white.png"
-import "mdbootstrap/css/mdb.min.css"
+// import "mdbootstrap/css/mdb.min.css"
 
 class HomePage extends Component {
 
