@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 import "./style/HomePage.css";
 import { withRouter } from 'react-router-dom';
 import { Image, Button } from "react-bootstrap";
-import headShot from "../assets/images/Headshot1Zoom.jpg"
 import linkedinIcon from "../assets/images/linkedin-white.png"
 import emailIcon from "../assets/images/mail-white.png"
 import githubIcon from "../assets/images/github-white.png"
-// import "mdbootstrap/css/mdb.min.css"
+
 
 class HomePage extends Component {
 
@@ -64,7 +63,7 @@ class HomePage extends Component {
           <Button className="animated fadeIn delay-1s" onClick={this.handleRedirectSkills} variant="info" size="sm">Skills</Button>
         </div>
       </div>
-      <Image id="headshotImage" className="animated fadeIn slower" src={headShot} rounded/>
+      <Image id="headshotImage" className="animated fadeIn slower" src="https://drive.google.com/uc?export=view&id=13D4MfXjP0sKqo2pXUU7BiqMWr-aE1cK0" rounded/>
       
     </div>
     );

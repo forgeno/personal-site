@@ -16,19 +16,19 @@ class ImageCarousel extends Component {
         return (
             <Carousel autoPlay>
                 <div>
-                    <img src={this.props.data["image1"]} />
+                    <img alt="carousel" src={this.props.data["image1"]} />
                     <p className="legend">{this.props.cap["cap1"]}</p>
                 </div>
                 <div>
-                    <img src={this.props.data["image2"]} />
+                    <img alt="carousel" src={this.props.data["image2"]} />
                     <p className="legend">{this.props.cap["cap2"]}</p>
                 </div>
                 <div>
-                    <img src={this.props.data["image3"]} />
+                    <img alt="carousel" src={this.props.data["image3"]} />
                     <p className="legend">{this.props.cap["cap3"]}</p>
                 </div>
                 <div>
-                    <img src={this.props.data["image4"]} />
+                    <img alt="carousel" src={this.props.data["image4"]} />
                     <p className="legend">{this.props.cap["cap4"]}</p>
                 </div>
             </Carousel>

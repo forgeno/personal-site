@@ -11,22 +11,14 @@ class ProjectPage extends Component {
     this.state = {
     };
   }
-
-  importAll(r) {
-    let images = {};
-    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
-    return images;
-  }
-
-  
+ 
 
   render() {
-    const images = this.importAll(require.context('../assets/images/Projects/', false, /\.(png|jpe?g|svg)$/));
     let stepsImages = {
-      image1: images["StepsThumbnail.png"],
-      image2: images["Steps1.png"],
-      image3: images["Steps2.png"],
-      image4: images["Steps3.png"],
+      image1: "https://drive.google.com/uc?export=view&id=1aT1WIikiD3fyNyzX-tB_eDTp6PvxSBNP",
+      image2: "https://drive.google.com/uc?export=view&id=18RhCsgp8cyDrgibjx1SSEYC1z7r3hsQl",
+      image3: "https://drive.google.com/uc?export=view&id=1KKTBfxzlY1AE3CaI8stPDQilNpdpIu8H",
+      image4: "https://drive.google.com/uc?export=view&id=1YuHRj258lmgIx8y9npsIiTsc4xpxX7Bq",
     }
 
     let stepsCaptions = {
@@ -37,10 +29,10 @@ class ProjectPage extends Component {
     }
 
     let gitImages = {
-      image1: images["GitFriends4.png"],
-      image2: images["GitFriends3.png"],
-      image3: images["GitFriends5.png"],
-      image4: images["GitFriends6.png"],
+      image1: "https://drive.google.com/uc?export=view&id=1yzS6vSpJAklhklAdhL4fZFICptQj0RFx",
+      image2: "https://drive.google.com/uc?export=view&id=1WFGJumzg4oDKKLcAG38WGCqs0cbztzlQ",
+      image3: "https://drive.google.com/uc?export=view&id=1ny3N7uqq9eMQ2rYyqupX5uB19UYCTeyH",
+      image4: "https://drive.google.com/uc?export=view&id=1haOs_al-x3xeU7QsXzk6yYaIzD6e507f",
     }
 
     let gitCaptions = {
@@ -64,12 +56,12 @@ class ProjectPage extends Component {
                       </Card.Text>
                       <a href="https://github.com/forgeno/steps" target='_blank' rel="noopener noreferrer">
                         <Button variant="success">
-                          <Image src={images["GithubLogo.png"]} className="ButtonLogo"></Image>Github Repo
+                          <Image src="https://drive.google.com/uc?export=view&id=10I7sUITDYJXW2FMDOmUg2CcfXKbL17cB" className="ButtonLogo"></Image>Github Repo
                         </Button>
                       </a>
                       <a href="https://www.youtube.com/watch?v=sJylDy-UX-k" target='_blank' rel="noopener noreferrer">
                         <Button variant="primary">
-                          <Image src={images["YoutubeLogo.png"]} className="ButtonLogo"></Image>Demo Video
+                          <Image src="https://drive.google.com/uc?export=view&id=1QoITQ8DlQgAAEwjmsJBeOij1DPTKare9" className="ButtonLogo"></Image>Demo Video
                         </Button>
                       </a>
                     </Card.Body>
@@ -86,12 +78,12 @@ class ProjectPage extends Component {
                       </Card.Text>
                       <a href="https://github.com/forgeno/CMPUT404-group-project" target='_blank' rel="noopener noreferrer">
                         <Button variant="success">
-                          <Image src={images["GithubLogo.png"]} className="ButtonLogo"></Image>Github Repo
+                          <Image src="https://drive.google.com/uc?export=view&id=10I7sUITDYJXW2FMDOmUg2CcfXKbL17cB" className="ButtonLogo"></Image>Github Repo
                         </Button>
                       </a>
                       <a href="https://www.youtube.com/watch?v=ur7otnh1ztc&feature=youtu.be" target='_blank' rel="noopener noreferrer">
                         <Button variant="primary">
-                          <Image src={images["YoutubeLogo.png"]} className="ButtonLogo"></Image>Demo Video
+                          <Image src="https://drive.google.com/uc?export=view&id=1QoITQ8DlQgAAEwjmsJBeOij1DPTKare9" className="ButtonLogo"></Image>Demo Video
                         </Button>
                       </a>
                     </Card.Body>

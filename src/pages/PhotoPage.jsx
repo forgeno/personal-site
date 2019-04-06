@@ -1,14 +1,6 @@
 import React, { Component } from 'react';
 import "./style/PhotoPage.css"
 import { Image,Container,Row,Col } from "react-bootstrap"
-import Building1 from "../assets/images/portfolio/Building1-square.png"
-import Seveteen from "../assets/images/portfolio/apricity-seventeen.png"
-import Legislature from "../assets/images/portfolio/Legislature-edmonton-square.png"
-import CalvinHeadshot from "../assets/images/portfolio/calvin-headshot-square.png"
-import MikeSquare from "../assets/images/portfolio/Mike-square.png"
-import DeiveSquare from "../assets/images/portfolio/IMG_2442.jpg"
-// import "mdbootstrap/css/mdb.min.css"
-
 
 class PhotoPage extends Component {
 
@@ -34,28 +26,28 @@ class PhotoPage extends Component {
             </div>
           </Col>
           <Col className="gridElement">
-            <Image className="gridImage" src={Building1} ></Image>
+            <Image className="gridImage" src="https://drive.google.com/uc?export=view&id=12YjYK4QcV1s7Mt3PIUdq75BgAta60jDk" ></Image>
           </Col>
         </Row>
         <Row>
           <Col className="gridElement">
-            <Image className="gridImage" src={Seveteen}></Image>
+            <Image className="gridImage" src="https://drive.google.com/uc?export=view&id=1_drvDjfhEA783F57lZ7Yvh1n2sbwGTuO"></Image>
           </Col>
         </Row>
         <Row>
           <Col className="gridElement">
-            <Image className="gridImage" src={Legislature}></Image>
+            <Image className="gridImage" src="https://drive.google.com/uc?export=view&id=1jE20yzmEOJPHvQUhuscN2X6HnMo7J548"></Image>
           </Col>
           <Col className="gridElement">
-            <Image className="gridImage" src={CalvinHeadshot}></Image>
+            <Image className="gridImage" src="https://drive.google.com/uc?export=view&id=1oQCzmHC6Tn3HtyPu_kGUXKzmanVbVog1"></Image>
           </Col>
         </Row>
         <Row>
           <Col className="gridElement">
-            <Image className="gridImage wow fadeInUp" src={MikeSquare}></Image>
+            <Image className="gridImage wow fadeInUp" src="https://drive.google.com/uc?export=view&id=1CIFktyYTRrkhPPu1RDmp0UjIGOVw_R9u"></Image>
           </Col>
           <Col className="gridElement">
-            <Image className="gridImage" src={DeiveSquare}></Image>
+            <Image className="gridImage" src="https://drive.google.com/uc?export=view&id=1QTPUHdEv-34pIN09eJfHhAAWuNWaOZcJ"></Image>
           </Col>
         </Row>
         <Row>
@@ -63,11 +55,11 @@ class PhotoPage extends Component {
         </Row>
         <br/>
         <Row>
-            <iframe className="videoPlayer" title="video1" width="1000" height="562.50" src="https://www.youtube.com/embed/FHfi6wp7XrM"></iframe>
+            <iframe className="videoPlayer" title="video2" width="1000" height="562.50" src="https://www.youtube.com/embed/FHfi6wp7XrM"></iframe>
         </Row>
         <br/>
         <Row>
-          <iframe className="videoPlayer" src="https://drive.google.com/file/d/1YCUPDfLzSUomPBK6RF6u8ZS4cq02VoPl/preview" width="1000" height="562.50"></iframe>
+        <iframe className="videoPlayer" title="video3" src="https://drive.google.com/file/d/1YCUPDfLzSUomPBK6RF6u8ZS4cq02VoPl/preview" width="1000" height="562.50"></iframe>
         </Row>
       </Container>
     )
