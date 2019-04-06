@@ -9,6 +9,7 @@ import MikeSquare from "../assets/images/portfolio/Mike-square.png"
 import DeiveSquare from "../assets/images/portfolio/IMG_2442.jpg"
 import "mdbootstrap/css/mdb.min.css"
 
+
 class PhotoPage extends Component {
 
   constructor(props) {
