@@ -56,7 +56,7 @@ class HomePage extends Component {
           Since I was little, I remember the dazzling lights and buzzing sounds coming from my
           computer intriguing me. Thankfully my career aspirations are still filled with curiosity and
           excitement. While I am still enthusiastic about pursuing different projects and learning as I go,
-          I found my interest in mobile/desktop all in one solutions the most interesting. 
+          I found my interest in mobile/desktop all-in-one solutions the most interesting. 
         </p>
         <div id="buttonDiv">
           <Button className="animated fadeIn delay-1s" onClick={this.handleRedirectProjects} variant="success" size="sm">My Projects</Button>

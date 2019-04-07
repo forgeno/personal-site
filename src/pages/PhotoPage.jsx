@@ -20,7 +20,7 @@ class PhotoPage extends Component {
               <br/>
               <p className="animated fadeInDown slow">
                 Photography is one of my biggest hobbies outside of work. Capturing the perfect moment in time and freezing it.
-                I've taken on small to medium sized events (~100 people) as well as one on one headshots. Dance and urban
+                I've taken on small to medium-sized events (~100 people) as well as one on one headshots. Dance and urban
                 photography are my specialties. Feel free to get in touch with me for future work.
               </p>
             </div>

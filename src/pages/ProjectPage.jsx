@@ -50,7 +50,6 @@ class ProjectPage extends Component {
                     <span className="ProjectTitle">STEPS</span>
                     <ImageCarousel data={stepsImages} cap={stepsCaptions}/>
                     <Card.Body>
-                      <Card.Title>STEPS WebApp</Card.Title>
                       <Card.Text>
                         STEPS is a web application that displays details about the sidewalks in Edmonton on an interactive map, with the purpose of of providing researchers data about the walkability attributes of all of the different sidewalks in a city. Ultimately, this data will be used to increase the importance of the pedestrian experience in urban planning and design. Visitors to the site are able to anonymously interact with the map by selecting a sidewalk. After selecting a sidewalk, they are able to leave comments on it, rate it in terms of different walkability attributes (Accessibility, Connectivity, Physical Safety, Comfort, and Sense of Security), and they are also able to upload images to the sidewalk.
                       </Card.Text>
@@ -72,7 +71,6 @@ class ProjectPage extends Component {
                     <span className="ProjectTitle">GITFRIENDS</span>
                     <ImageCarousel data={gitImages} cap={gitCaptions}/>
                     <Card.Body>
-                      <Card.Title>GitFriends WebApp</Card.Title>
                       <Card.Text>
                         Part of a university final project, Git friends is a peer to peer social media network. Each team had to recreate their own rendition of the app. Different front end and back end implementions made each app special from one another. Based on similar ideas such as facebook, and twitter. GitFriends allows registered users to quickly share ideas, photos and links by making new posts. Support for sharing content to uses on other "servers/nodes" brings a new level of socialization. 
                       </Card.Text>
