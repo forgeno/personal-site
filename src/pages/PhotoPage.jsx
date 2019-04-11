@@ -26,17 +26,17 @@ class PhotoPage extends Component {
             </div>
           </Col>
           <Col className="gridElement">
-            <Image className="gridImage" src="https://drive.google.com/uc?export=view&id=12YjYK4QcV1s7Mt3PIUdq75BgAta60jDk" ></Image>
+            <Image className="gridImage" src="https://drive.google.com/uc?export=view&id=1yyh7r9i4PnH__EdGCaSxEYbl176utMRj" ></Image>
           </Col>
         </Row>
         <Row>
           <Col className="gridElement">
-            <Image className="gridImage" src="https://drive.google.com/uc?export=view&id=1_drvDjfhEA783F57lZ7Yvh1n2sbwGTuO"></Image>
+            <Image className="gridImage" src="https://drive.google.com/uc?export=view&id=1HbR_OH1r-UFVLx9osZgwS1o2U2XOatV5"></Image>
           </Col>
         </Row>
         <Row>
           <Col className="gridElement">
-            <Image className="gridImage" src="https://drive.google.com/uc?export=view&id=1jE20yzmEOJPHvQUhuscN2X6HnMo7J548"></Image>
+            <Image className="gridImage" src="https://drive.google.com/uc?export=view&id=1hppoSj32bALLEEWj-uoRS4wNSCttOKKO"></Image>
           </Col>
           <Col className="gridElement">
             <Image className="gridImage" src="https://drive.google.com/uc?export=view&id=1oQCzmHC6Tn3HtyPu_kGUXKzmanVbVog1"></Image>
@@ -44,7 +44,7 @@ class PhotoPage extends Component {
         </Row>
         <Row>
           <Col className="gridElement">
-            <Image className="gridImage wow fadeInUp" src="https://drive.google.com/uc?export=view&id=1CIFktyYTRrkhPPu1RDmp0UjIGOVw_R9u"></Image>
+            <Image className="gridImage wow fadeInUp" src="https://drive.google.com/uc?export=view&id=1nu2M5pF8i8WIVekjZI4GsR3-ezf2xc8O"></Image>
           </Col>
           <Col className="gridElement">
             <Image className="gridImage" src="https://drive.google.com/uc?export=view&id=1QTPUHdEv-34pIN09eJfHhAAWuNWaOZcJ"></Image>

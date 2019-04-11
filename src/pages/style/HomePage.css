@@ -46,6 +46,8 @@ body {
 }
 
 .iconLink{
+    padding: 10px;
+    max-width:40%;
     display: flex;
     justify-content: center;
     flex-direction: column;
