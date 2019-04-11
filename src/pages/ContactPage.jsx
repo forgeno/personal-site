@@ -30,14 +30,14 @@ class ContactPage extends Component {
               <Col className="contactGrid animated fadeInUp slow">
                 <Image className="contactIcon" src={emailIcon}/>
                 <p className="connectInfo">
-                  By far the best way to reach me, typically replies within the same day. Great way to set up photography work, free lance software development or just be my friend!
+                  By far the best way to reach me, I typically reply within the same day. Use it as a great way to set up photography work, freelance software development, or just to be my friend!
                 </p>
                 <Button target='_blank' href="mailto:ima@ualberta.ca" className="connectButton" variant="primary" size="sm">Email me</Button>
               </Col>
               <Col className="contactGrid animated fadeInUp slower">
                 <Image className="contactIcon" src={githubIcon}/>
                 <p className="connectInfo">
-                  If you just want to get to the juice stuff, check out my github. I put most of my code on it so feel free to browse around.
+                  If you just want to get to the juicy stuff, check out my github. I put most of my code on it so feel free to browse around.
                 </p>
                 <Button target='_blank' href="https://github.com/forgeno" className="connectButton" variant="primary" size="sm">Github</Button>
               </Col>

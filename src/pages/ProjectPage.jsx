@@ -72,7 +72,7 @@ class ProjectPage extends Component {
                     <ImageCarousel data={gitImages} cap={gitCaptions}/>
                     <Card.Body>
                       <Card.Text>
-                        Part of a university final project, Git friends is a peer to peer social media network. Each team had to recreate their own rendition of the app. Different front end and back end implementions made each app special from one another. Based on similar ideas such as facebook, and twitter. GitFriends allows registered users to quickly share ideas, photos and links by making new posts. Support for sharing content to uses on other "servers/nodes" brings a new level of socialization. 
+                        Part of a university final project, GitFriends is a peer to peer social media network. Each team had to recreate their own rendition of the app. Different front end and back end implementions made each app special from one another. Based on similar ideas such as Facebook, and Twitter. GitFriends allows registered users to quickly share ideas, photos and links by making new posts. Support for sharing content to uses on other "servers/nodes" brings a new level of socialization. This project was built in collaboration with 4 other team members. 
                       </Card.Text>
                       <a href="https://github.com/forgeno/CMPUT404-group-project" target='_blank' rel="noopener noreferrer">
                         <Button variant="success">

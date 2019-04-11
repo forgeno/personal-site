@@ -51,7 +51,7 @@ class HomePage extends Component {
         <a className="iconLink" target='_blank' rel="noopener noreferrer" href="mailto:ima@ualberta.ca"><Image className="contactIcon" src={emailIcon}/></a>
       </div>
       <div id="info">
-        <h1 className={this.state.visable? "animated slideInUp slow":"animated slideOutDown slow"}>Hi, My name is Ivan</h1>
+        <h1 className={this.state.visable? "animated slideInUp slow":"animated slideOutDown slow"}>Hi, my name is Ivan</h1>
         <p className="animated slideInDown slow" id="mainIntro">
           Since I was little, I remember the dazzling lights and buzzing sounds coming from my
           computer intriguing me. Thankfully my career aspirations are still filled with curiosity and
