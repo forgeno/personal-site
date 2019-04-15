@@ -37,8 +37,8 @@ class HomePage extends Component {
     this.props.history.push(path);
   }
 
-  handleRedirectSkills(){
-    const path = `/skills`;
+  handleRedirectResume(){
+    const path = `/resume`;
     this.props.history.push(path);
   }
 
@@ -60,7 +60,7 @@ class HomePage extends Component {
         </p>
         <div id="buttonDiv">
           <Button className="animated fadeIn delay-1s" onClick={this.handleRedirectProjects} variant="success" size="sm">My Projects</Button>
-          <Button className="animated fadeIn delay-1s" onClick={this.handleRedirectSkills} variant="info" size="sm">Skills</Button>
+          <Button className="animated fadeIn delay-1s" onClick={this.handleRedirectResume} variant="info" size="sm">Resume</Button>
         </div>
       </div>
       <Image id="headshotImage" className="animated fadeIn slower" src="https://drive.google.com/uc?export=view&id=13D4MfXjP0sKqo2pXUU7BiqMWr-aE1cK0" rounded/>
