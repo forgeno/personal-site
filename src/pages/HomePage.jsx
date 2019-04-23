@@ -42,6 +42,7 @@ class HomePage extends Component {
     this.props.history.push(path);
   }
 
+  
   render() {
     return (
     <div id="mainDiv">
