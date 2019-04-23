@@ -15,7 +15,7 @@ class HomePage extends Component {
       visable: false,
     };
     this.handleRedirectProjects = this.handleRedirectProjects.bind(this);
-    this.handleRedirectSkills = this.handleRedirectSkills.bind(this);
+    this.handleRedirectResume = this.handleRedirectResume.bind(this);
   }
   
   componentDidMount(){
